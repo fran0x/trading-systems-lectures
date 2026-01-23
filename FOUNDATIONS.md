@@ -103,17 +103,16 @@ and crypto/DeFi systems.
 
 ## 4. Top 10 – Crypto, DeFi & Digital Markets
 
-1. [Mastering Bitcoin – Andreas Antonopoulos](https://github.com/bitcoinbook/bitcoinbook)
-2. [Mastering Ethereum – Antonopoulos & Gavin Wood](https://github.com/ethereumbook/ethereumbook)
-3. [Cryptoassets – Burniske & Tatar](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671)
-4. [The Age of Cryptocurrency – Vigna & Casey](https://www.amazon.com/Age-Cryptocurrency-Blockchain-Challenging-Economic/dp/1250081556)
-5. [Uniswap v3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
-6. [Automated Market Making and Loss-Versus-Rebalancing – Milionis](https://arxiv.org/abs/2208.06046)
-7. [Flashbots Research](https://www.flashbots.net/research-database)
-8. [EigenPhi Research](https://eigenphi.substack.com/s/defi-research)
-9. [Token Economy / Tokenomics – Sean Au & Thomas Power](https://www.amazon.com/Tokenomics-Crypto-Shift-Blockchains-Tokens-ebook/dp/B07CSP51B9)
+1. [Bitcoin: A Peer-to-Peer Electronic Cash System - Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
+2. [Mastering Bitcoin – Andreas Antonopoulos](https://github.com/bitcoinbook/bitcoinbook)
+3. [Mastering Ethereum – Antonopoulos & Gavin Wood](https://github.com/ethereumbook/ethereumbook)
+4. [Cryptoassets – Burniske & Tatar](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671)
+5. [The Age of Cryptocurrency – Vigna & Casey](https://www.amazon.com/Age-Cryptocurrency-Blockchain-Challenging-Economic/dp/1250081556)
+6. [Uniswap v3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
+7. [Token Economy / Tokenomics – Sean Au & Thomas Power](https://www.amazon.com/Tokenomics-Crypto-Shift-Blockchains-Tokens-ebook/dp/B07CSP51B9)
+8. [Flashbots Research](https://www.flashbots.net/research-database)
+9. [EigenPhi Research](https://eigenphi.substack.com/s/defi-research)
 10. [Paradigm Research](https://www.paradigm.xyz/)
-11. [Bitcoin: A Peer-to-Peer Electronic Cash System - Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
 
 ---
 
