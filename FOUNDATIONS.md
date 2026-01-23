@@ -16,26 +16,16 @@ This section covers the non-negotiable engineering foundations for building real
 trading systems: CPU, memory, concurrency, networking, and messaging.  
 In HFT and market making, these layers are inseparable.
 
-1. [What Every Programmer Should Know About Memory – Ulrich Drepper](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)  
-   CPU caches, NUMA, memory ordering — foundational for latency determinism.
-2. [Systems Performance – Brendan Gregg](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)  
-   Observability, profiling, tail latency, kernel behavior.
-3. [Optimizing Software in C++ – Agner Fog](https://www.agner.org/optimize/optimizing_cpp.pdf)  
-   Micro-architecture-aware optimization.
-4. [UNIX Network Programming – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/unix-network-programming-volume-1/P200000003295)  
-   Authoritative TCP/UDP knowledge for systems programming.
-5. [TCP/IP Illustrated, Volume 1 – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/tcp-ip-illustrated-volume-1/P200000003305)  
-   Protocol-level understanding of TCP, UDP, retransmissions, and ACKs.
-6. [Mechanical Sympathy – Martin Thompson](https://mechanical-sympathy.blogspot.com/)  
-   Latency, queues, memory barriers, and systems-level thinking.
-7. [Design Patterns for Low-Latency Applications (HFT)](https://arxiv.org/abs/2309.04259)  
-   Architecture patterns specific to high-performance trading systems.
-8. [Aeron (Low-Latency Messaging over UDP)](https://aeron.io/)  
-   Practical example of UDP-based, loss-aware messaging.
-9. [FIX Trading Community (FIX / FAST / SBE)](https://www.fixtrading.org/)  
-   Industry-standard protocols for order entry and market data.
-10. [Linux Performance & Networking Tools – Brendan Gregg](https://www.brendangregg.com/linuxperf.html)  
-    CPU, memory, disk, and network analysis.
+1. [What Every Programmer Should Know About Memory – Ulrich Drepper](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf): CPU caches, NUMA, memory ordering — foundational for latency determinism.
+2. [Systems Performance – Brendan Gregg](https://www.brendangregg.com/systems-performance-2nd-edition-book.html): Observability, profiling, tail latency, kernel behavior.
+3. [Optimizing Software in C++ – Agner Fog](https://www.agner.org/optimize/optimizing_cpp.pdf): Micro-architecture-aware optimization.
+4. [UNIX Network Programming – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/unix-network-programming-volume-1/P200000003295): Authoritative TCP/UDP knowledge for systems programming.
+5. [TCP/IP Illustrated, Volume 1 – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/tcp-ip-illustrated-volume-1/P200000003305): Protocol-level understanding of TCP, UDP, retransmissions, and ACKs.
+6. [Mechanical Sympathy – Martin Thompson](https://mechanical-sympathy.blogspot.com/): Latency, queues, memory barriers, and systems-level thinking.
+7. [Design Patterns for Low-Latency Applications (HFT)](https://arxiv.org/abs/2309.04259): Architecture patterns specific to high-performance trading systems.
+8. [Aeron (Low-Latency Messaging over UDP)](https://aeron.io/): Practical example of UDP-based, loss-aware messaging.
+9. [FIX Trading Community (FIX / FAST / SBE)](https://www.fixtrading.org/): Industry-standard protocols for order entry and market data.
+10. [Linux Performance & Networking Tools – Brendan Gregg](https://www.brendangregg.com/linuxperf.html): CPU, memory, disk, and network analysis.
 
 ### Notes on Networking in Trading Systems
 
@@ -61,6 +51,7 @@ and crypto/DeFi systems.
 3. [Rust Reference](https://doc.rust-lang.org/reference/)
 4. [Rust Performance Book](https://nnethercote.github.io/perf-book/)
 5. [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
+6. [Rust Atomics and Locks (Low-Level Concurrency in Practice)](https://marabos.nl/atomics/)
 
 ---
 
