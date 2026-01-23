@@ -16,16 +16,16 @@ This section covers the non-negotiable engineering foundations for building real
 trading systems: CPU, memory, concurrency, networking, and messaging.  
 In HFT and market making, these layers are inseparable.
 
-1. [What Every Programmer Should Know About Memory – Ulrich Drepper](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf): CPU caches, NUMA, memory ordering — foundational for latency determinism.
-2. [Systems Performance – Brendan Gregg](https://www.brendangregg.com/systems-performance-2nd-edition-book.html): Observability, profiling, tail latency, kernel behavior.
-3. [Optimizing Software in C++ – Agner Fog](https://www.agner.org/optimize/optimizing_cpp.pdf): Micro-architecture-aware optimization.
-4. [UNIX Network Programming – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/unix-network-programming-volume-1/P200000003295): Authoritative TCP/UDP knowledge for systems programming.
-5. [TCP/IP Illustrated, Volume 1 – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/tcp-ip-illustrated-volume-1/P200000003305): Protocol-level understanding of TCP, UDP, retransmissions, and ACKs.
-6. [Mechanical Sympathy – Martin Thompson](https://mechanical-sympathy.blogspot.com/): Latency, queues, memory barriers, and systems-level thinking.
-7. [Design Patterns for Low-Latency Applications (HFT)](https://arxiv.org/abs/2309.04259): Architecture patterns specific to high-performance trading systems.
-8. [Aeron (Low-Latency Messaging over UDP)](https://aeron.io/): Practical example of UDP-based, loss-aware messaging.
-9. [FIX Trading Community (FIX / FAST / SBE)](https://www.fixtrading.org/): Industry-standard protocols for order entry and market data.
-10. [Linux Performance & Networking Tools – Brendan Gregg](https://www.brendangregg.com/linuxperf.html): CPU, memory, disk, and network analysis.
+1. [What Every Programmer Should Know About Memory – Ulrich Drepper](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf): CPU caches, NUMA, memory ordering
+2. [Systems Performance – Brendan Gregg](https://www.brendangregg.com/systems-performance-2nd-edition-book.html): observability, profiling, tail latency, kernel behavior
+3. [Optimizing Software in C++ – Agner Fog](https://www.agner.org/optimize/optimizing_cpp.pdf): micro-architecture-aware optimization
+4. [UNIX Network Programming – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/unix-network-programming-volume-1/P200000003295): authoritative TCP/UDP knowledge for systems programming
+5. [TCP/IP Illustrated, Volume 1 – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/tcp-ip-illustrated-volume-1/P200000003305): protocol-level understanding of TCP, UDP, retransmissions, and ACKs
+6. [Mechanical Sympathy – Martin Thompson](https://mechanical-sympathy.blogspot.com/): latency, queues, memory barriers, and systems-level thinking
+7. [Design Patterns for Low-Latency Applications (HFT)](https://arxiv.org/abs/2309.04259): architecture patterns specific to high-performance trading systems
+8. [Aeron (Low-Latency Messaging over UDP)](https://aeron.io/): practical example of UDP-based, loss-aware messaging
+9. [FIX Trading Community (FIX / FAST / SBE)](https://www.fixtrading.org/): industry-standard protocols for order entry and market data
+10. [Linux Performance & Networking Tools – Brendan Gregg](https://www.brendangregg.com/linuxperf.html): CPU, memory, disk, and network analysis
 
 ### Notes on Networking in Trading Systems
 
@@ -35,6 +35,48 @@ In HFT and market making, these layers are inseparable.
 - Networking issues often surface as apparent strategy problems.
 
 > In trading systems, networking is part of the execution logic, not just infrastructure.
+
+### Notes on Operating Systems for Trading Systems
+
+Operating system behavior is a primary determinant of latency, jitter, and
+determinism in trading systems. Many production issues attributed to strategies
+or networking are, in practice, consequences of OS scheduling and memory
+management decisions.
+
+- Scheduler behavior directly impacts tail latency; throughput-oriented defaults
+  are often unsuitable for low-latency workloads.
+- Preemption, context switches, and involuntary scheduling introduce
+  nondeterminism that is difficult to observe from user space.
+- Syscalls and user/kernel boundary crossings are hidden latency sources.
+- Page faults, transparent huge pages, and memory reclamation can cause
+  unpredictable stalls.
+- Timer resolution, clock sources, and TSC stability affect timestamping and
+  replay accuracy.
+- Interrupt handling (IRQs) and CPU affinity must be explicitly managed.
+
+> In low-latency trading systems, Linux defaults optimize for fairness and
+> throughput, not determinism.
+
+### Notes on Cloud vs Colocation Infrastructure
+
+Modern trading systems are typically deployed across a mix of cloud and
+colocation environments. Understanding the trade-offs between these deployment
+models is essential for correct system design.
+
+- Cloud environments prioritize elasticity and operational simplicity, often at
+  the cost of higher and more variable latency.
+- Virtualization layers introduce jitter through noisy neighbors, shared
+  resources, and opaque scheduling.
+- Colocation provides predictable latency and physical proximity to exchanges,
+  which is critical for market data ingestion and order execution.
+- Hybrid architectures are common: research, simulation, and control planes in
+  the cloud; execution and market data in colo.
+- Crypto trading systems often tolerate higher latency but must account for
+  different failure modes, such as chain reorgs and RPC instability.
+- Operational risk and latency risk must be traded off explicitly.
+
+> In trading systems, infrastructure choices encode assumptions about acceptable
+> latency, failure modes, and risk.
 
 ---
 
