@@ -19,8 +19,8 @@ In HFT and market making, these layers are inseparable.
 1. [What Every Programmer Should Know About Memory – Ulrich Drepper](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf): CPU caches, NUMA, memory ordering
 2. [Systems Performance – Brendan Gregg](https://www.brendangregg.com/systems-performance-2nd-edition-book.html): observability, profiling, tail latency, kernel behavior
 3. [Optimizing Software in C++ – Agner Fog](https://www.agner.org/optimize/optimizing_cpp.pdf): micro-architecture-aware optimization
-4. [UNIX Network Programming – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/unix-network-programming-volume-1/P200000003295): authoritative TCP/UDP knowledge for systems programming
-5. [TCP/IP Illustrated, Volume 1 – W. Richard Stevens](https://www.pearson.com/en-us/subject-catalog/p/tcp-ip-illustrated-volume-1/P200000003305): protocol-level understanding of TCP, UDP, retransmissions, and ACKs
+4. [UNIX Network Programming – W. Richard Stevens](https://www.amazon.com/UNIX-Network-Programming-Richard-Stevens/dp/0139498761): authoritative TCP/UDP knowledge for systems programming
+5. [TCP/IP Illustrated – W. Richard Stevens](https://www.amazon.es/TCP-IP-Illustrated-Protocols-APC/dp/0201633469): protocol-level understanding of TCP, UDP, retransmissions, and ACKs
 6. [Mechanical Sympathy – Martin Thompson](https://mechanical-sympathy.blogspot.com/): latency, queues, memory barriers, and systems-level thinking
 7. [Design Patterns for Low-Latency Applications (HFT)](https://arxiv.org/abs/2309.04259): architecture patterns specific to high-performance trading systems
 8. [Aeron (Low-Latency Messaging over UDP)](https://aeron.io/): practical example of UDP-based, loss-aware messaging
@@ -88,15 +88,15 @@ and crypto/DeFi systems.
 
 ## 3. Top 10 – Financial Domain (Markets, Microstructure, Strategies)
 
-1. [Options, Futures, and Other Derivatives – John Hull](https://www.pearson.com/en-us/subject-catalog/p/options-futures-and-other-derivatives/P200000003295)
-2. [Algorithmic and High-Frequency Trading – Cartea, Jaimungal, Penalva](https://www.cambridge.org/core/books/algorithmic-and-highfrequency-trading/)
-3. [Trading and Exchanges – Larry Harris](https://global.oup.com/academic/product/trading-and-exchanges-9780195144703)
-4. [Market Microstructure Theory – Maureen O’Hara](https://www.wiley.com/en-us/Market+Microstructure+Theory-p-9780631225294)
-5. [Advances in Financial Machine Learning – Marcos López de Prado](https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086)
-6. [Trading Systems and Methods – Perry Kaufman](https://www.wiley.com/en-us/Trading+Systems+and+Methods%2C+5th+Edition-p-9781119604075)
-7. [Quantitative Risk Management – McNeil, Frey, Embrechts](https://press.princeton.edu/books/hardcover/9780691141282/quantitative-risk-management)
-8. [The Science of Algorithmic Trading and Portfolio Management – Robert Kissell](https://www.elsevier.com/books/the-science-of-algorithmic-trading-and-portfolio-management/kissell/9780124016896)
-9. [Statistical Models and Methods for Financial Markets – Tze Leung Lai](https://www.springer.com/gp/book/9780387227289)
+1. [Options, Futures, and Other Derivatives – John Hull](https://www.pearson.com/nl/en_NL/higher-education/subject-catalogue/finance/Options-Futures-and-Other-Derivatives-Hull.html)
+2. [Algorithmic and High-Frequency Trading – Cartea, Jaimungal, Penalva](https://www.amazon.com/Algorithmic-High-Frequency-Trading-Mathematics-Finance/dp/1107091144)
+3. [Trading and Exchanges – Larry Harris](https://www.amazon.com/Trading-Exchanges-Market-Microstructure-Practitioners/dp/0195144708)
+4. [Market Microstructure Theory – Maureen O’Hara](https://www.amazon.com/Market-Microstructure-Theory-Maureen-OHara/dp/0631207619)
+5. [Advances in Financial Machine Learning – Marcos López de Prado](https://www.amazon.com/Advances-Financial-Machine-Learning-Lopez/dp/1119482089)
+6. [Trading Systems and Methods – Perry Kaufman](https://www.amazon.com/Trading-Systems-Methods-Wiley/dp/1119605350)
+7. [Quantitative Risk Management – McNeil, Frey, Embrechts](https://www.amazon.com/Quantitative-Risk-Management-Techniques-Princeton/dp/0691166277)
+8. [The Science of Algorithmic Trading and Portfolio Management – Robert Kissell](https://www.amazon.com/Science-Algorithmic-Trading-Portfolio-Management/dp/0124016898)
+9. [Statistical Models and Methods for Financial Markets – Tze Leung Lai](https://www.amazon.com/Statistical-Methods-Financial-Springer-Statistics/dp/1441926682)
 10. [Flash Boys – Michael Lewis](https://wwnorton.com/books/Flash-Boys/)  
 
 ---
@@ -105,14 +105,15 @@ and crypto/DeFi systems.
 
 1. [Mastering Bitcoin – Andreas Antonopoulos](https://github.com/bitcoinbook/bitcoinbook)
 2. [Mastering Ethereum – Antonopoulos & Gavin Wood](https://github.com/ethereumbook/ethereumbook)
-3. [Cryptoassets – Burniske & Tatar](https://www.penguinrandomhouse.com/books/553457/cryptoassets-by-chris-burniske-and-jack-tatar/)
-4. [The Age of Cryptocurrency – Vigna & Casey](https://www.penguinrandomhouse.com/books/239206/the-age-of-cryptocurrency-by-paul-vigna-and-michael-j-casey/)
+3. [Cryptoassets – Burniske & Tatar](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671)
+4. [The Age of Cryptocurrency – Vigna & Casey](https://www.amazon.com/Age-Cryptocurrency-Blockchain-Challenging-Economic/dp/1250081556)
 5. [Uniswap v3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
-6. [Automated Market Making and Loss-Versus-Rebalancing – Milionis et al.](https://arxiv.org/abs/2108.08999)
-7. [Flashbots Research](https://research.flashbots.net/)
-8. [EigenPhi Research](https://eigenphi.io/research)
-9. [Token Economy / Tokenomics – Sean Au & Thomas Power](https://tokenomicsbook.com/)
-10. [Paradigm Research](https://www.paradigm.xyz/research)
+6. [Automated Market Making and Loss-Versus-Rebalancing – Milionis](https://arxiv.org/abs/2208.06046)
+7. [Flashbots Research](https://www.flashbots.net/research-database)
+8. [EigenPhi Research](https://eigenphi.substack.com/s/defi-research)
+9. [Token Economy / Tokenomics – Sean Au & Thomas Power](https://www.amazon.com/Tokenomics-Crypto-Shift-Blockchains-Tokens-ebook/dp/B07CSP51B9)
+10. [Paradigm Research](https://www.paradigm.xyz/)
+11. [Bitcoin: A Peer-to-Peer Electronic Cash System - Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
 
 ---
 
