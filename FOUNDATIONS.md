@@ -43,19 +43,14 @@ determinism in trading systems. Many production issues attributed to strategies
 or networking are, in practice, consequences of OS scheduling and memory
 management decisions.
 
-- Scheduler behavior directly impacts tail latency; throughput-oriented defaults
-  are often unsuitable for low-latency workloads.
-- Preemption, context switches, and involuntary scheduling introduce
-  nondeterminism that is difficult to observe from user space.
+- Scheduler behavior directly impacts tail latency; throughput-oriented defaults are often unsuitable for low-latency workloads.
+- Preemption, context switches, and involuntary scheduling introduce nondeterminism that is difficult to observe from user space.
 - Syscalls and user/kernel boundary crossings are hidden latency sources.
-- Page faults, transparent huge pages, and memory reclamation can cause
-  unpredictable stalls.
-- Timer resolution, clock sources, and TSC stability affect timestamping and
-  replay accuracy.
+- Page faults, transparent huge pages, and memory reclamation can cause unpredictable stalls.
+- Timer resolution, clock sources, and TSC stability affect timestamping and replay accuracy.
 - Interrupt handling (IRQs) and CPU affinity must be explicitly managed.
 
-> In low-latency trading systems, Linux defaults optimize for fairness and
-> throughput, not determinism.
+> In trading systems, Linux defaults optimize for fairness and throughput, not determinism.
 
 ### Notes on Cloud vs Colocation Infrastructure
 
@@ -63,20 +58,14 @@ Modern trading systems are typically deployed across a mix of cloud and
 colocation environments. Understanding the trade-offs between these deployment
 models is essential for correct system design.
 
-- Cloud environments prioritize elasticity and operational simplicity, often at
-  the cost of higher and more variable latency.
-- Virtualization layers introduce jitter through noisy neighbors, shared
-  resources, and opaque scheduling.
-- Colocation provides predictable latency and physical proximity to exchanges,
-  which is critical for market data ingestion and order execution.
-- Hybrid architectures are common: research, simulation, and control planes in
-  the cloud; execution and market data in colo.
-- Crypto trading systems often tolerate higher latency but must account for
-  different failure modes, such as chain reorgs and RPC instability.
+- Cloud environments prioritize elasticity and operational simplicity, often at the cost of higher and more variable latency.
+- Virtualization layers introduce jitter through noisy neighbors, shared resources, and opaque scheduling.
+- Colocation provides predictable latency and physical proximity to exchanges, critical for market data ingestion and order execution.
+- Hybrid architectures are common: research, simulation, and control planes in the cloud; execution and market data in colo.
+- Crypto trading systems often tolerate higher latency but must account for failure modes, such as chain reorgs and RPC instability.
 - Operational risk and latency risk must be traded off explicitly.
 
-> In trading systems, infrastructure choices encode assumptions about acceptable
-> latency, failure modes, and risk.
+> In trading systems, infrastructure choices encode assumptions about acceptable latency, failure modes, and risk.
 
 ---
 
