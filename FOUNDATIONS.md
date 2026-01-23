@@ -98,7 +98,6 @@ and crypto/DeFi systems.
 8. [The Science of Algorithmic Trading and Portfolio Management – Robert Kissell](https://www.elsevier.com/books/the-science-of-algorithmic-trading-and-portfolio-management/kissell/9780124016896)
 9. [Statistical Models and Methods for Financial Markets – Tze Leung Lai](https://www.springer.com/gp/book/9780387227289)
 10. [Flash Boys – Michael Lewis](https://wwnorton.com/books/Flash-Boys/)  
-    Context and history.
 
 ---
 
@@ -120,15 +119,15 @@ and crypto/DeFi systems.
 ## 5. Top Academic Programs – Financial Engineering & Quant Finance
 
 1. [EPFL – Master in Financial Engineering (MFE)](https://www.epfl.ch/education/master/programs/financial-engineering/)
-2. [Imperial College London – MSc Risk Management & Financial Engineering](https://www.imperial.ac.uk/business-school/masters/risk-management-financial-engineering/)
+2. [Imperial College London – MSc Risk Management & Financial Engineering](https://www.imperial.ac.uk/business-school/masters/risk-management/)
 3. [Imperial College London – MSc Mathematics & Finance](https://www.imperial.ac.uk/study/courses/postgraduate-taught/mathematics-finance/)
-4. [National University of Singapore – MSc Financial Engineering](https://msfe.nus.edu.sg/)
-5. [Nanyang Technological University – MSc Financial Engineering](https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-financial-engineering)
-6. [Singapore Management University – MSc Quantitative Finance](https://masters.smu.edu.sg/programme/msc-in-quantitative-finance)
-7. [WorldQuant University – MSc Financial Engineering](https://www.wqu.edu/)
-8. [Columbia University – MS Financial Engineering](https://ieor.columbia.edu/financial-engineering)
-9. [Carnegie Mellon – MS Computational Finance](https://www.cmu.edu/mscf/)
-10. [UC Berkeley – Master of Financial Engineering](https://mfe.haas.berkeley.edu/)
+4. [Imperial College London – MSc Financial Technology](https://www.imperial.ac.uk/business-school/masters/financial-technology/)
+5. [Singapore Management University – MSc Quantitative Finance](https://masters.smu.edu.sg/programme/msc-in-quantitative-finance)
+6. [Columbia University – MS Financial Engineering](https://ieor.columbia.edu/financial-engineering-msfe)
+7. [Carnegie Mellon – MS Computational Finance](https://www.cmu.edu/mscf/)
+8. [UC Berkeley – Master of Financial Engineering](https://mfe.haas.berkeley.edu/)
+9. [Boston - MS in Mathematical Finance & Financial Technology](https://www.bu.edu/academics/questrom/programs/mathematical-finance/ms/)
+10. [Hesperides - Master en Finanzas Cuantitativas y Métodos Computacionales](https://hesperides.edu.es/estudios/master-en-finanzas-cuantitativas-y-metodos-computacionales/)
 
 ### Rankings and Meta-Resources
 
