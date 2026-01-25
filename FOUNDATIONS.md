@@ -26,6 +26,8 @@ In HFT and market making, these layers are inseparable.
 8. [Aeron (Low-Latency Messaging over UDP)](https://aeron.io/): practical example of UDP-based, loss-aware messaging
 9. [FIX Trading Community (FIX / FAST / SBE)](https://www.fixtrading.org/): industry-standard protocols for order entry and market data
 10. [Linux Performance & Networking Tools – Brendan Gregg](https://www.brendangregg.com/linuxperf.html): CPU, memory, disk, and network analysis
+11. [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/split/index.html)
+12. [High Performance Browser Networking - Ilya Grigorik](https://hpbn.co/)
 
 ### Notes on Networking in Trading Systems
 
@@ -82,7 +84,8 @@ and crypto/DeFi systems.
 3. [Rust Reference](https://doc.rust-lang.org/reference/)
 4. [Rust Performance Book](https://nnethercote.github.io/perf-book/)
 5. [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
-6. [Rust Atomics and Locks (Low-Level Concurrency in Practice)](https://marabos.nl/atomics/)
+6. [Rust Atomics and Locks - Mara Bos](https://marabos.nl/atomics/)
+7. [Rust for Rustaceans - Jon Gjengset](https://www.amazon.com/Rust-Rustaceans-Programming-Experienced-Developers-ebook/dp/B0957SWKBS)
 
 ---
 
@@ -105,14 +108,15 @@ and crypto/DeFi systems.
 
 1. [Bitcoin: A Peer-to-Peer Electronic Cash System - Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
 2. [Mastering Bitcoin – Andreas Antonopoulos](https://github.com/bitcoinbook/bitcoinbook)
-3. [Mastering Ethereum – Antonopoulos & Gavin Wood](https://github.com/ethereumbook/ethereumbook)
-4. [Cryptoassets – Burniske & Tatar](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671)
-5. [The Age of Cryptocurrency – Vigna & Casey](https://www.amazon.com/Age-Cryptocurrency-Blockchain-Challenging-Economic/dp/1250081556)
-6. [Uniswap v3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
-7. [Token Economy / Tokenomics – Sean Au & Thomas Power](https://www.amazon.com/Tokenomics-Crypto-Shift-Blockchains-Tokens-ebook/dp/B07CSP51B9)
-8. [Flashbots Research](https://www.flashbots.net/research-database)
-9. [EigenPhi Research](https://eigenphi.substack.com/s/defi-research)
-10. [Paradigm Research](https://www.paradigm.xyz/)
+3. [Learn me a Bitcoin - Greg Walker](https://learnmeabitcoin.com/)
+4. [Mastering Ethereum – Antonopoulos & Gavin Wood](https://github.com/ethereumbook/ethereumbook)
+5. [Cryptoassets – Burniske & Tatar](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671)
+6. [The Age of Cryptocurrency – Vigna & Casey](https://www.amazon.com/Age-Cryptocurrency-Blockchain-Challenging-Economic/dp/1250081556)
+7. [Uniswap v3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
+8. [Token Economy / Tokenomics – Sean Au & Thomas Power](https://www.amazon.com/Tokenomics-Crypto-Shift-Blockchains-Tokens-ebook/dp/B07CSP51B9)
+9. [Flashbots Research](https://www.flashbots.net/research-database)
+10. [EigenPhi Research](https://eigenphi.substack.com/s/defi-research)
+11. [Paradigm Research](https://www.paradigm.xyz/)
 
 ---
 
