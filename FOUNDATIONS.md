@@ -10,7 +10,7 @@ and risk, rather than purely academic abstractions.
 
 ---
 
-## 1. Top 10 – Technology (Low-Latency Systems, Networking & Infrastructure)
+## 1. Top Technology (Low-Latency Systems, Networking & Infrastructure)
 
 This section covers the non-negotiable engineering foundations for building real-world
 trading systems: CPU, memory, concurrency, networking, and messaging.  
@@ -89,7 +89,7 @@ and crypto/DeFi systems.
 
 ---
 
-## 3. Top 10 – Financial Domain (Markets, Microstructure, Strategies)
+## 3. Top Financial Domain (Markets, Microstructure, Strategies)
 
 1. [Options, Futures, and Other Derivatives – John Hull](https://www.pearson.com/nl/en_NL/higher-education/subject-catalogue/finance/Options-Futures-and-Other-Derivatives-Hull.html)
 2. [Algorithmic and High-Frequency Trading – Cartea, Jaimungal, Penalva](https://www.amazon.com/Algorithmic-High-Frequency-Trading-Mathematics-Finance/dp/1107091144)
@@ -104,7 +104,7 @@ and crypto/DeFi systems.
 
 ---
 
-## 4. Top 10 – Crypto, DeFi & Digital Markets
+## 4. Top Crypto, DeFi & Digital Markets
 
 1. [Bitcoin: A Peer-to-Peer Electronic Cash System - Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
 2. [Mastering Bitcoin – Andreas Antonopoulos](https://github.com/bitcoinbook/bitcoinbook)
