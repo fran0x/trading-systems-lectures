@@ -117,6 +117,7 @@ and crypto/DeFi systems.
 9. [Flashbots Research](https://www.flashbots.net/research-database)
 10. [EigenPhi Research](https://eigenphi.substack.com/s/defi-research)
 11. [Paradigm Research](https://www.paradigm.xyz/)
+12. [How Crypto Works Book](https://github.com/lawmaster10/howcryptoworksbook)
 
 ---
 
